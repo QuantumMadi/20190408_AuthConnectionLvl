@@ -9,6 +9,6 @@ namespace University.Models
     public class Cabinet
     {
         public int Id { get; set; }
-
+        public Dictionary<Group, DateTime> keyValuePairs;
     }
 }
